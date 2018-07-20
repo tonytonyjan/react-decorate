@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tonytonyjan/react-decorate.svg?branch=master)](https://travis-ci.org/tonytonyjan/react-decorate)
+[![Build Status](https://travis-ci.org/tonytonyjan/react-decorate-props.svg?branch=master)](https://travis-ci.org/tonytonyjan/react-decorate-props)
 
 # react-decorate-props
 
