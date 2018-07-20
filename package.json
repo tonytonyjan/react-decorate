@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "reactjs"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^3.0.0-rc.1"
+  }
+}
