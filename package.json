@@ -1,6 +1,8 @@
 {
   "name": "react-decorate-props",
   "version": "1.0.1",
+  "description": "react-decorate-props is a higher-order component which can help you concat `className`, merge `style` and forward the rest of props.",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
@@ -9,6 +11,14 @@
     "react",
     "reactjs"
   ],
+  "author": {
+    "name": "Jian Weihang",
+    "email": "tonytonyjan@gmail.com",
+    "url": "https://tonytonyjan.net"
+  },
+  "homepage": "https://github.com/tonytonyjan/react-decorate-props",
+  "bugs": "https://github.com/tonytonyjan/react-decorate-props/issues",
+  "repository": "github:tonytonyjan/react-decorate-props",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^23.4.0",
