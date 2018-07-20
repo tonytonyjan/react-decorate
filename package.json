@@ -1,6 +1,6 @@
 {
   "name": "react-decorate-props",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-decorate-props is a higher-order component which can help you concat `className`, merge `style` and forward the rest of props.",
   "license": "MIT",
   "main": "src/index.js",
