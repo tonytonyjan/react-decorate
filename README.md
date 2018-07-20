@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tonytonyjan/react-decorate.svg?branch=master)](https://travis-ci.org/tonytonyjan/react-decorate)
+
 # react-decorate-props
 
 react-decorate-props is a [higher-order component](https://reactjs.org/docs/higher-order-components.html) which can help you concat `className`, merge `style` and forward the rest of props. No more`const {className, style, ...others} = this.props` in `render()`.
