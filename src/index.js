@@ -12,12 +12,13 @@ const mergeClassNameAndStyle = (element, ownProps) => {
     ""
   );
   const newStyle = Object.assign({}, originalStyle, style);
-  return React.cloneElement(element, {
-    ...element.props,
-    ...ownProps,
-    style: newStyle,
-    className: newClassName === "" ? null : newClassName
-  });
+  return React.cloneElement(
+    element,
+    Object.assign({}, element.props, ownProps, {
+      style: newStyle,
+      className: newClassName === "" ? null : newClassName
+    })
+  );
 };
 
 module.exports = WrappedComponent => {
