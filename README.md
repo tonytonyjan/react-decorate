@@ -1,6 +1,6 @@
-# react-decorate
+# react-decorate-props
 
-react-decorate is a [higher-order component](https://reactjs.org/docs/higher-order-components.html) which can help you concat `className`, merge `style` and forward the rest of props. No more`const {className, style, ...others} = this.props` in `render()`.
+react-decorate-props is a [higher-order component](https://reactjs.org/docs/higher-order-components.html) which can help you concat `className`, merge `style` and forward the rest of props. No more`const {className, style, ...others} = this.props` in `render()`.
 
 # Usage
 
@@ -22,7 +22,7 @@ class Foo extends React.Component {
 }
 
 // ...wrap component with HOC...
-import decorate from "react-decorate";
+import decorate from "react-decorate-props";
 class Foo extends React.Component {
   render() {
     const rootClass = "root";
